@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Shipeazi.com | Tracking</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> </head>
+
+<body>
+    <div class="wrapper dash-head">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3><a href="index.html"><img src="img/dark.png" class="img-fluid"></a></h3> <strong><a href="index.html"><img src="img/icon.png" class="img-fluid"></a></strong> </div>
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="user-dash.html"> <i class="fas fa-home"></i> Dashboard </a>
+                </li>
+                <li class="active">
+                    <a href="tracking.html"> <i class="fas fa-truck-moving"></i> Tracking </a>
+                </li>
+                <li>
+                    <a href="payment.html"> <i class="far fa-money-bill-alt"></i> Payment </a>
+                </li>
+                <li>
+                    <a href="profile.html"> <i class="fas fa-user-circle"></i> Profile </a>
+                </li>
+                <li>
+                    <a href="support.html"> <i class="fas fa-phone"></i> Support </a>
+                </li>
+            </ul>
+            <ul class="list-unstyled CTAs">
+                <li><a href="#" class="article">Logout</a></li>
+            </ul>
+        </nav>
+        
+        
+        
+        
+        
+        <!-- Page Content Holder -->
+        
+       <div id="content" class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" id="sidebarCollapse" class="btn btn-shippy"> <i class="fas fa-bars"></i> <span>Toggle</span> </button>
+                    </div>
+                </div>
+            </nav>
+            <div class="line"></div>
+            <h3 class="title-text">Tracking</h3>
+            <p>You can track all shipping here.</p>
+            
+            <h4 class="card-title pt-4">Track Shipping</h4>
+            <div class="short-line mb-4"></div>
+            <form action="" class="shipping-form">
+                <div class="row">
+                    <div class="col-md-6 field-space">
+                        <div class="form-group">
+                            <input type="text" name="trackiing" id="trackiing" class="form-control" placeholder="Tracking number"> </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <button type="submit" class="btn btn-shippy btn-lg mb-3">Track Shipping</button>
+                    </div>
+                </div>
+            </form>
+            <div class="line pt-4"></div>
+            <div class="pt-5">
+                   
+                <h4 class="card-title">Recent Shipping</h4>
+                <div class="short-line mb-4"></div>
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">Tracking</th>
+                      <th scope="col">Shipping Date</th>
+                      <th scope="col">Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                        <td>SEZ0023467</td>
+                        <td>21/01/2018</td>
+                        <td><span class="badge badge-pill badge-success">Delivered</span> </td>
+                    </tr>
+                    <tr>
+                        <td>SEZ0023467</td>
+                        <td>30/01/2018</td>
+                        <td><span class="badge badge-pill badge-info">Processing</span> </td>
+                    </tr>
+                    <tr>
+                        <td>SEZ0023467</td>
+                        <td>09/04/2017</td>
+                        <td><span class="badge badge-pill badge-warning">Shipped</span> </td>
+                    </tr>
+                    <tr>
+                        <td>SEZ0023467</td>
+                        <td>13/12/2017</td>
+                        <td><span class="badge badge-pill badge-danger">Cancelled</span> </td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+            
+            
+            
+        </div>
+       
+       
+       
+       
+       
+       
+       
+       
+        
+    </div>
+    
+    <section id="footer">
+		<div class="container">
+			<div class="row pt-2 pb-3">
+				<div class="col-lg-12">
+					<footer class="footer">© Shipeazi.com 2018</footer>
+				</div>
+				
+            </div>
+		</div>
+	</section>
+    
+    
+    <!-- jQuery CDN -->
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <!-- Bootstrap Js CDN -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>

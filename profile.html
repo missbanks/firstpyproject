@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Shipeazi.com | Profile</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> </head>
+
+<body>
+    <div class="wrapper dash-head">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3><a href="index.html"><img src="img/dark.png" class="img-fluid"></a></h3> <strong><a href="index.html"><img src="img/icon.png" class="img-fluid"></a></strong> </div>
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="user-dash.html"> <i class="fas fa-home"></i> Dashboard </a>
+                </li>
+                <li>
+                    <a href="tracking.html"> <i class="fas fa-truck-moving"></i> Tracking </a>
+                </li>
+                <li>
+                    <a href="payment.html"> <i class="far fa-money-bill-alt"></i> Payment </a>
+                </li>
+                <li class="active">
+                    <a href="profile.html"> <i class="fas fa-user-circle"></i> Profile </a>
+                </li>
+                <li>
+                    <a href="support.html"> <i class="fas fa-phone"></i> Support </a>
+                </li>
+            </ul>
+            <ul class="list-unstyled CTAs">
+                <li><a href="#" class="article">Logout</a></li>
+            </ul>
+        </nav>
+        
+        
+        
+        
+        
+        <!-- Page Content Holder -->
+        
+       <div id="content" class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" id="sidebarCollapse" class="btn btn-shippy"> <i class="fas fa-bars"></i> <span>Toggle</span> </button>
+                    </div>
+                </div>
+            </nav>
+            <div class="line"></div>
+            <h3 class="title-text">Profile</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            
+            
+            
+            <div class="line pt-4"></div>
+            <h4 class="card-title pt-4">Personal Information</h4>
+            <div class="short-line mb-4"></div>
+            <form action="" class="shipping-form">
+                    <div class="row">
+                        <div class="col-md-5 field-space">
+                            <div class="form-group">
+                                <input type="text" name="full-name" id="full-name" class="form-control" placeholder="Full name">
+                            </div>
+                        </div>
+                        <div class="col-md-7 field-space">
+                            <div class="form-group">
+                                <input type="text" name="email" id="email" class="form-control" placeholder="E-mail address">
+                            </div>
+                        </div>
+                        <div class="col-md-6 field-space">
+                            <div class="form-group">
+                                <input type="tel" name="phone-number" id="phone-number" class="form-control" placeholder="Phone number">
+                            </div>
+                        </div>
+                        <div class="col-md-6 field-space">
+                            <div class="form-group">
+                                <input type="text" name="delivery-address" id="delivery-address" class="form-control"  placeholder="Address">
+                            </div>
+                        </div>
+                        <div class="col-md-6 field-space">
+                            <div class="form-group">
+                                <input type="text" name="receiver" id="receiver" class="form-control"  placeholder="Receiver's Name">
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-12">
+                            <div class="form-check">
+                                <input type="checkbox" id="terms" class="form-check-input">
+                                <label for="terms" class="form-class-label"><small>Details supplied have been carefully cheched and are accurate.</small></label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6"><button type="submit" class="btn btn-shippy btn-lg mb-5">Update</button></div>
+                        
+                    </div>
+                </form>
+        </div>
+       
+       
+       
+       
+       
+       
+       
+       
+        
+    </div>
+    
+    <section id="footer">
+		<div class="container">
+			<div class="row pt-2 pb-3">
+				<div class="col-lg-12">
+					<footer class="footer">© Shipeazi.com 2018</footer>
+				</div>
+				
+            </div>
+		</div>
+	</section>
+    
+    
+    <!-- jQuery CDN -->
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <!-- Bootstrap Js CDN -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>

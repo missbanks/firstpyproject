@@ -1,0 +1,519 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    font-size: 19px;
+    font-family: 'Boing-Light' !important;
+}
+
+@font-face {
+    font-family: 'Boing-Thin';
+    src: local('Boing-Thin.ttf'), url('Boing-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Boing-Medium';
+    src: local('Boing-Medium.ttf'), url('Boing-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Boing-SemiboldItalic';
+    src: local('Boing-SemiboldItalic.ttf'), url('Boing-SemiboldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Boing-Bold';
+    src: local('Boing-Bold.ttf'), url('Boing-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Boing-Semibold';
+    src: local('Boing-Semibold.ttf'), url('Boing-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Boing-Regular';
+    src: local('Boing-Regular.ttf'), url('Boing-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Boing-Light';
+    src: local('Boing-Light.ttf'), url('Boing-Light.ttf') format('truetype');
+}
+
+
+/*----- Navbar Section-----*/
+
+.nav-item {
+    padding: 0 10px 0 10px;
+    font-size: 16px;
+    font-family: 'Boing-Semibold';
+}
+
+.btn-shippy {
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: #00d919;
+    padding: 4px 25px 5px 25px;
+}
+
+.btn-shippy:hover {
+    color: #2d3047;
+    background-color: #fcbf49;
+}
+
+.btn-shippy-big {
+    border-radius: 70px;
+    font-size: 50px;
+    color: #ffffff;
+    background-color: #00d919;
+    padding: 10px 45px 12px 45px;
+}
+
+.btn-shippy-big:hover {
+    color: #2d3047;
+    background-color: #fcbf49;
+}
+
+
+/*----- Header Section-----*/
+
+#big-head {
+    min-height: 100vh;
+    background-color: #e8e8e8;
+    background-image: url(/img/pattern.png);
+    background-repeat: repeat;
+}
+
+.big-text {
+    font-family: 'Boing-Bold';
+    font-size: 75px;
+    line-height: 81px;
+    padding: 120px 0 10px 0;
+}
+
+.big-extract {
+    font-family: 'Boing-Regular';
+    font-size: 25px;
+    padding: 20px 0 20px 0;
+}
+
+.top-line {
+    width: 215px;
+    height: 6px;
+    background-color: #00d919;
+}
+
+@media (max-width: 60em) {
+    .element {
+        display: none;
+    }
+}
+
+
+/*----- About Us Section-----*/
+
+#about-us {
+    background-color: #27275f;
+    min-height: 100vh;
+    color: #ffffff;
+}
+
+.title-text {
+    font-family: 'Boing-Medium';
+    font-size: 50px;
+}
+
+.main-paragraph {
+    font-family: 'Boing-light';
+    font-size: 18px;
+}
+
+.short-line {
+    width: 115px;
+    height: 3px;
+    background-color: #7ED300;
+}
+
+.card-title {
+    font-family: 'Boing-Medium';
+    font-size: 18px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.card {
+    border: 1px solid #ffffff;
+}
+
+.padding-top-100 {
+    padding-top: 100px;
+}
+
+.padding-bottom-100 {
+    padding-bottom: 100px;
+}
+
+
+
+/*----- Pricing Section-----*/
+
+#pricing {
+    min-height: 80vh;
+}
+
+.shadow {
+    box-shadow: 5px 5px 5px #e3e3e3;
+}
+
+.card-header {
+    font-size: 60px;
+    font-family: 'Boing-Light';
+    text-align: center;
+}
+
+
+
+/*----- Footer Section-----*/
+
+#footer {
+    background-color: #e5e5e5;
+    text-align: center;
+}
+
+.footer {
+    padding-top: 3px;
+    font-size: 14px;
+    font-family: 'Boing-Bold';
+}
+
+
+/*----- Login/Sign-up-----*/
+
+.login-signup-form {
+    max-width: 500px;
+    margin: auto;
+    background: linear-gradient(-60deg, #e7ffea, #e6e6e6, #ffffff, #fff5f5);
+    padding: 30px;
+    border-radius: 10px;
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.field-space {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#big-reg {
+    min-height: 95vh;
+    background-color: #ffffff;
+    background-image: url(/img/pattern.png);
+    background-repeat: repeat;
+}
+
+.shippy-link {
+    color: #2d3047;
+    font-family: 'Boing-Medium'
+}
+
+.shippy-link:hover {
+    color: #419d78;
+    text-decoration: none;
+}
+
+
+/*----- sidebar-----*/
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #419d78;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+}
+
+#sidebar.active .sidebar-header h3,
+#sidebar.active .CTAs {
+    display: none;
+}
+
+#sidebar.active .sidebar-header strong {
+    display: block;
+}
+
+#sidebar ul li a {
+    text-align: left;
+}
+
+#sidebar.active ul li a {
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 0.85em;
+}
+
+#sidebar.active ul li a i {
+    margin-right: 0;
+    display: block;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+#sidebar.active ul ul a {
+    padding: 10px !important;
+}
+
+#sidebar.active a[aria-expanded="false"]::before,
+#sidebar.active a[aria-expanded="true"]::before {
+    top: auto;
+    bottom: 5px;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #2d3047;
+}
+
+#sidebar .sidebar-header strong {
+    display: none;
+    font-size: 1.8em;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 0.9em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #00d919;
+    background: #fff;
+}
+
+#sidebar ul li a i {
+    margin-right: 10px;
+}
+
+#sidebar ul li.active > a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #2d3047;
+}
+
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+a[aria-expanded="false"]::before,
+a[aria-expanded="true"]::before {
+    content: '\e259';
+    display: block;
+    position: absolute;
+    right: 20px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 0.6em;
+}
+
+a[aria-expanded="true"]::before {
+    content: '\e260';
+}
+
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #fcbf49 !important;
+    color: #14223b !important;
+}
+
+#content {
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        min-width: 90px;
+        max-width: 90px;
+        text-align: center;
+        margin-left: -90px !important;
+    }
+    a[aria-expanded="false"]::before,
+    a[aria-expanded="true"]::before {
+        top: auto;
+        bottom: 5px;
+        right: 50%;
+        -webkit-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+        transform: translateX(50%);
+    }
+    #sidebar.active {
+        margin-left: 0 !important;
+    }
+
+    #sidebar .sidebar-header h3,
+    #sidebar .CTAs {
+        display: none;
+    }
+
+    #sidebar .sidebar-header strong {
+        display: block;
+    }
+
+    #sidebar ul li a {
+        padding: 20px 10px;
+    }
+
+    #sidebar ul li a span {
+        font-size: 0.85em;
+    }
+    #sidebar ul li a i {
+        margin-right: 0;
+        display: block;
+    }
+
+    #sidebar ul ul a {
+        padding: 10px !important;
+    }
+
+    #sidebar ul li a i {
+        font-size: 1.3em;
+    }
+    #sidebar {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding: 15px 10px;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+i,
+span {
+    display: inline-block;
+}
+
+
+/*------ Dashboard------*/
+
+.dash-head {
+    background-color: #ffffff;
+    background-image: url(/img/pattern.png);
+    background-repeat: repeat;
+}
+
+.table {
+    font-size: 16px;
+}
